@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bc"
+    tools:context=".Registration">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/bookMail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/layout_details"
+            android:ems="10"
+            android:hint="Enter Your Email Address"
+            android:textColorHint="@color/white"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/bookName"
+            app:layout_constraintStart_toStartOf="@+id/bookName"
+            app:layout_constraintTop_toBottomOf="@+id/bookName" />
+
+        <EditText
+            android:id="@+id/bookaddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/layout_details"
+            android:ems="10"
+            android:hint="Enter your Address"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/bookMail"
+            app:layout_constraintStart_toStartOf="@+id/bookMail"
+            app:layout_constraintTop_toBottomOf="@+id/bookMail" />
+
+        <EditText
+            android:id="@+id/bookPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/layout_details"
+            android:ems="10"
+            android:hint="Price"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/bookaddress"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/bookaddress"
+            app:layout_constraintTop_toBottomOf="@+id/bookaddress" />
+
+        <EditText
+            android:id="@+id/bookComment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/layout_details"
+            android:ems="10"
+            android:hint="Comment"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/bookPrice"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/bookPrice"
+            app:layout_constraintTop_toBottomOf="@+id/bookPrice" />
+
+        <EditText
+            android:id="@+id/bookName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/layout_details"
+            android:ems="10"
+            android:hint="Enter Your Book Name"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bookBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/layout_details"
+            android:text="Sell your book"
+            android:textColor="@color/white"
+            app:backgroundTint="#191414"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/bookComment"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/bookComment"
+            app:layout_constraintTop_toBottomOf="@+id/bookComment"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/tutorhello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill up information to sell your book."
+            android:textColor="@color/black2"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/bookName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.495" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+

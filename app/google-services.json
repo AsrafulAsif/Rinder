@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "460688989524",
+    "project_id": "rinder-e15bb",
+    "storage_bucket": "rinder-e15bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460688989524:android:bf7a5b35cff63f38743cc1",
+        "android_client_info": {
+          "package_name": "com.example.rinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460688989524-stgdeeu8caem234977526qpsnt8031k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rinder",
+            "certificate_hash": "da07ee4b07c83f5a9a90af6868412e5894294ab5"
+          }
+        },
+        {
+          "client_id": "460688989524-r423jk3dal3ipk59spa0516prl8s5bsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMRtXbmkmRZl-zj4EKFgbNem5ZwC8bdsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460688989524-r423jk3dal3ipk59spa0516prl8s5bsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

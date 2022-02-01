@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:padding="10dp"
+    android:background="@color/bc"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt1"
+            app:cornerRadius="18dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/black2"
+            android:text="Rokomari">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt2"
+            app:cornerRadius="18dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/black2"
+            android:text="BookShopBD">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt3"
+            app:cornerRadius="18dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/black2"
+            android:text="Boibazar">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt4"
+            app:cornerRadius="18dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/black2"
+            android:text="eBoighar">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

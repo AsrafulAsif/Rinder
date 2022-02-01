@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bc"
+    tools:context=".amni"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list Name"
+
+            android:textColor="@color/black2"
+            android:id="@+id/namiset"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender: "
+
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+
+            android:textColor="@color/black2"
+            android:id="@+id/genderset"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asif@gmail.com"
+
+            android:textColor="@color/black2"
+            android:id="@+id/mailset"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interested Subject List: "
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:id="@+id/subset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSE327"
+            android:textColor="@color/black2"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="100dp"
+       android:gravity="center">
+
+       <Button
+           android:id="@+id/acceptbtn"
+           android:layout_width="130dp"
+           android:layout_height="50dp"
+           android:background="@drawable/layout_details"
+           android:text="Connect"
+           android:textAllCaps="false"
+           android:textColor="@color/black2"
+           android:textSize="20sp"
+           android:layout_marginRight="20dp"
+           app:backgroundTint="@color/white"></Button>
+
+       <Button
+           android:id="@+id/rejectbtn"
+           android:layout_width="130dp"
+           android:layout_height="50dp"
+           android:background="@drawable/layout_details"
+           android:text="Reject"
+           android:textAllCaps="false"
+           android:textColor="@color/black2"
+           android:textSize="20sp"
+           app:backgroundTint="@color/red">
+       </Button>
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bc"
+    tools:context=".Log_in">
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+      <TextView
+          android:id="@+id/hellothere"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="42dp"
+          android:layout_marginLeft="42dp"
+          android:layout_marginTop="104dp"
+
+          android:text="Hello There !"
+          android:textColor="@color/black2"
+          android:textSize="24sp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <EditText
+          android:id="@+id/email"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="48dp"
+          android:layout_marginEnd="80dp"
+          android:layout_marginRight="80dp"
+          android:background="@drawable/layout_details"
+          android:ems="10"
+
+          android:hint="Enter Your  Email Address "
+          android:textColorHint="@color/white"
+          android:inputType="textEmailAddress"
+          android:padding="15dp"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="@+id/hellothere"
+          app:layout_constraintTop_toBottomOf="@+id/hellothere" />
+
+      <EditText
+          android:id="@+id/Password"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:background="@drawable/layout_details"
+          android:ems="10"
+
+          android:hint="Enter Your Password"
+          android:textColorHint="@color/white"
+          android:inputType="textPassword"
+          android:padding="15dp"
+          android:textSize="14sp"
+          app:layout_constraintEnd_toEndOf="@+id/email"
+          app:layout_constraintStart_toStartOf="@+id/email"
+          app:layout_constraintTop_toBottomOf="@+id/email" />
+
+      <Button
+          android:id="@+id/login"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="40dp"
+          android:background="@drawable/layout_details"
+          android:text="Login"
+          android:textAllCaps="false"
+          android:textColor="@color/white"
+          android:textSize="20sp"
+          app:backgroundTint="@color/black2"
+          app:layout_constraintEnd_toEndOf="@+id/Password"
+          app:layout_constraintHorizontal_bias="1.0"
+          app:layout_constraintStart_toStartOf="@+id/Password"
+          app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+      <TextView
+          android:id="@+id/notmember"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="68dp"
+          android:layout_marginLeft="68dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginBottom="216dp"
+          android:text="You're not a member?"
+          android:textColor="@color/black2"
+          android:textSize="15sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/login"
+          app:layout_constraintVertical_bias="0.0" />
+
+      <TextView
+          android:id="@+id/register"
+          android:layout_width="70dp"
+          android:layout_height="21dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginLeft="16dp"
+          android:layout_marginEnd="200dp"
+          android:layout_marginRight="150dp"
+          android:text="Register."
+          android:textColor="#FF0844"
+          android:textColorHint="@color/design_default_color_on_secondary"
+          android:textStyle="bold"
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="@+id/notmember"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toEndOf="@+id/notmember"
+          app:layout_constraintTop_toTopOf="@+id/notmember"
+          app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

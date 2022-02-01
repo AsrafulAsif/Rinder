@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bc"
+    tools:context=".Registration">
+
+     <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+
+
+         <EditText
+             android:id="@+id/useremailAdress"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="24dp"
+             android:background="@drawable/layout_details"
+             android:ems="10"
+             android:hint="Enter Your Email Address"
+             android:textColorHint="@color/white"
+             android:inputType="textEmailAddress"
+             android:padding="15dp"
+             android:textSize="14sp"
+             app:layout_constraintEnd_toEndOf="@+id/userName"
+             app:layout_constraintStart_toStartOf="@+id/userName"
+             app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+         <EditText
+             android:id="@+id/userPass"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="24dp"
+             android:background="@drawable/layout_details"
+             android:ems="10"
+             android:hint="Enter Password"
+             android:textColorHint="@color/white"
+             android:inputType="textPassword"
+             android:padding="15dp"
+             android:textSize="14sp"
+             app:layout_constraintEnd_toEndOf="@+id/useremailAdress"
+             app:layout_constraintStart_toStartOf="@+id/useremailAdress"
+             app:layout_constraintTop_toBottomOf="@+id/useremailAdress" />
+
+         <EditText
+             android:id="@+id/userPhno"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="28dp"
+             android:background="@drawable/layout_details"
+             android:ems="10"
+             android:hint="Enter Your Gender"
+             android:textColorHint="@color/white"
+             android:inputType="textPersonName"
+             android:padding="15dp"
+             android:textSize="14sp"
+             app:layout_constraintEnd_toEndOf="@+id/userPass"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="@+id/userPass"
+             app:layout_constraintTop_toBottomOf="@+id/userPass" />
+
+         <EditText
+             android:id="@+id/userAddress"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="24dp"
+             android:background="@drawable/layout_details"
+             android:ems="10"
+             android:hint="Enter Your Interested Subjects"
+             android:textColorHint="@color/white"
+             android:inputType="textPersonName"
+             android:padding="15dp"
+             android:textSize="14sp"
+             app:layout_constraintEnd_toEndOf="@+id/userPhno"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="@+id/userPhno"
+             app:layout_constraintTop_toBottomOf="@+id/userPhno" />
+
+         <EditText
+             android:id="@+id/userName"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="50dp"
+             android:layout_marginLeft="50dp"
+             android:layout_marginTop="144dp"
+             android:layout_marginEnd="50dp"
+             android:layout_marginRight="50dp"
+             android:background="@drawable/layout_details"
+             android:ems="10"
+             android:hint="Enter Your Name"
+             android:textColorHint="@color/white"
+             android:inputType="textPersonName"
+             android:padding="15dp"
+             android:textSize="14sp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <Button
+             android:id="@+id/tutorRegister"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="24dp"
+             android:background="@drawable/layout_details"
+             android:text="Register"
+             android:textColor="@color/white"
+             app:backgroundTint="#191414"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="@+id/userAddress"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toStartOf="@+id/userAddress"
+             app:layout_constraintTop_toBottomOf="@+id/userAddress"
+             app:layout_constraintVertical_bias="0.0" />
+
+
+         <TextView
+             android:id="@+id/notmember"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="30dp"
+             android:layout_marginStart="72dp"
+             android:layout_marginLeft="72dp"
+             android:layout_marginBottom="88dp"
+             android:text="You're already a member."
+             android:textSize="15sp"
+             android:textStyle="bold"
+             android:textColor="@color/black2"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/tutorRegister"
+             app:layout_constraintVertical_bias="1.0" />
+
+         <TextView
+             android:id="@+id/login"
+             android:layout_width="49dp"
+             android:layout_height="21dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginLeft="16dp"
+             android:layout_marginEnd="200dp"
+             android:layout_marginRight="200dp"
+             android:text="Log In."
+             android:textColor="#FF0844"
+             android:textColorHint="@color/design_default_color_on_secondary"
+             android:textStyle="bold"
+             android:textSize="15sp"
+             app:layout_constraintBottom_toBottomOf="@+id/notmember"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.0"
+             app:layout_constraintStart_toEndOf="@+id/notmember"
+             app:layout_constraintTop_toTopOf="@+id/notmember"
+             app:layout_constraintVertical_bias="0.0" />
+
+     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>
