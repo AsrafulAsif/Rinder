@@ -14,7 +14,7 @@ it further.
 <img align="left" src="https://user-images.githubusercontent.com/46238989/152022112-45e8e786-7b7c-4275-a661-beee25c4ed9b.jpg" width="300" >
 <img align="left" src="https://user-images.githubusercontent.com/46238989/152022119-841a8dd6-7ace-4b8b-8b3f-cdb6138a305d.jpg" width="300" >
 <img align="left" src="https://user-images.githubusercontent.com/46238989/152022127-40d24faf-5df7-48d7-a2c6-726467c02303.jpg" width="300" >
-<img align="left" src="https://user-images.githubusercontent.com/46238989/152022145-e4ebe7bd-a0dd-4c41-8eb7-b68591174a8f.jpg" width="300" >
+<img  src="https://user-images.githubusercontent.com/46238989/152022145-e4ebe7bd-a0dd-4c41-8eb7-b68591174a8f.jpg" width="300" >
 
 ## Peoples who work with me :
 - [@Ashim Hemi](https://www.facebook.com/ashim.hemi)
